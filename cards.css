@@ -1,0 +1,48 @@
+.page-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+}
+
+.input-zone {
+	display: flex;
+	flex-direction: column;
+	border: 2px ridge orange;
+	width: 60%;
+	justify-content: center;
+	text-align: center;
+	margin: auto;
+	padding: 2em;
+}
+
+input {
+	margin: 1em;
+	font-size: 2em;
+}
+
+#create-button {
+	width: 65%;
+	margin: auto;
+	font-size: 2em;
+}
+
+.output-zone {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card {
+	border: 3px solid green;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 3px;
+	padding: 1em;
+	flex-grow: 1;
+	min-width: 85px;
+	max-width: 185px;
+}
